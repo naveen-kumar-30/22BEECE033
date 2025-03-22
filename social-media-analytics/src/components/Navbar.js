@@ -7,8 +7,8 @@ function Navbar() {
     <AppBar
       position="static"
       sx={{
-        backgroundColor: "#e8ecef", // White background
-        boxShadow: "0px 2px 10px rgba(0, 0, 0, 0.1)", // Subtle shadow
+        backgroundColor: "#e8ecef", 
+        boxShadow: "0px 2px 10px rgba(0, 0, 0, 0.1)", 
       }}
     >
       <Toolbar>
@@ -16,10 +16,10 @@ function Navbar() {
           variant="h6"
           sx={{
             flexGrow: 1,
-            fontFamily: "'Poppins', sans-serif", // Modern font
+            fontFamily: "'Poppins', sans-serif", 
             fontWeight: 600,
-            color: "#1a73e8", // Google Blue for the title
-            letterSpacing: "0.5px", // Slightly spaced letters
+            color: "#1a73e8", 
+            letterSpacing: "0.5px",
           }}
         >
           Social Media Analytics
@@ -28,18 +28,18 @@ function Navbar() {
           component={Link}
           to="/"
           sx={{
-            color: "#5f6368", // Dark gray text
-            margin: "0 8px", // Spacing between buttons
-            padding: "8px 16px", // Padding for better click area
-            fontFamily: "'Roboto', sans-serif", // Modern font
+            color: "#5f6368", 
+            margin: "0 8px", 
+            padding: "8px 16px", 
+            fontFamily: "'Roboto', sans-serif", 
             fontWeight: 500,
-            borderRadius: "8px", // Rounded corners
-            transition: "all 0.3s ease", // Smooth transition
+            borderRadius: "8px", 
+            transition: "all 0.3s ease", 
             "&:hover": {
-              backgroundColor: "#1a73e8", // Google Blue on hover
-              color: "#ffffff", // White text on hover
-              transform: "translateY(-2px)", // Slight lift on hover
-              boxShadow: "0px 4px 15px rgba(26, 115, 232, 0.3)", // Shadow on hover
+              backgroundColor: "#1a73e8", 
+              color: "#ffffff", 
+              transform: "translateY(-2px)", 
+              boxShadow: "0px 4px 15px rgba(26, 115, 232, 0.3)", 
             },
           }}
         >
@@ -49,18 +49,18 @@ function Navbar() {
           component={Link}
           to="/trending"
           sx={{
-            color: "#5f6368", // Dark gray text
-            margin: "0 8px", // Spacing between buttons
-            padding: "8px 16px", // Padding for better click area
-            fontFamily: "'Roboto', sans-serif", // Modern font
+            color: "#5f6368", 
+            margin: "0 8px", 
+            padding: "8px 16px", 
+            fontFamily: "'Roboto', sans-serif", 
             fontWeight: 500,
-            borderRadius: "8px", // Rounded corners
-            transition: "all 0.3s ease", // Smooth transition
+            borderRadius: "8px", 
+            transition: "all 0.3s ease", 
             "&:hover": {
-              backgroundColor: "#1a73e8", // Google Blue on hover
-              color: "#ffffff", // White text on hover
-              transform: "translateY(-2px)", // Slight lift on hover
-              boxShadow: "0px 4px 15px rgba(26, 115, 232, 0.3)", // Shadow on hover
+              backgroundColor: "#1a73e8", 
+              color: "#ffffff", 
+              transform: "translateY(-2px)", 
+              boxShadow: "0px 4px 15px rgba(26, 115, 232, 0.3)", 
             },
           }}
         >
@@ -70,18 +70,18 @@ function Navbar() {
           component={Link}
           to="/feed"
           sx={{
-            color: "#5f6368", // Dark gray text
-            margin: "0 8px", // Spacing between buttons
-            padding: "8px 16px", // Padding for better click area
-            fontFamily: "'Roboto', sans-serif", // Modern font
+            color: "#5f6368", 
+            margin: "0 8px", 
+            padding: "8px 16px", 
+            fontFamily: "'Roboto', sans-serif", 
             fontWeight: 500,
-            borderRadius: "8px", // Rounded corners
-            transition: "all 0.3s ease", // Smooth transition
+            borderRadius: "8px", 
+            transition: "all 0.3s ease", 
             "&:hover": {
-              backgroundColor: "#1a73e8", // Google Blue on hover
-              color: "#ffffff", // White text on hover
-              transform: "translateY(-2px)", // Slight lift on hover
-              boxShadow: "0px 4px 15px rgba(26, 115, 232, 0.3)", // Shadow on hover
+              backgroundColor: "#1a73e8", 
+              color: "#ffffff", 
+              transform: "translateY(-2px)", 
+              boxShadow: "0px 4px 15px rgba(26, 115, 232, 0.3)", 
             },
           }}
         >
