@@ -1,0 +1,304 @@
+{
+  "metadata": {
+    "timestamp": "2025-03-22 07:28:29",
+    "user": "naveenkumar830",
+    "version": "1.0"
+  },
+  "users": {
+    "1": {
+      "name": "John Doe",
+      "posts": [
+        {
+          "id": 101,
+          "content": "Post about ant",
+          "comments": [
+            {
+              "id": 1001,
+              "content": "Great observation!"
+            }
+          ]
+        },
+        {
+          "id": 102,
+          "content": "Post about elephant",
+          "comments": []
+        },
+        {
+          "id": 103,
+          "content": "Post about ocean",
+          "comments": [
+            {
+              "id": 1002,
+              "content": "Beautiful picture!"
+            },
+            {
+              "id": 1003,
+              "content": "Amazing!"
+            }
+          ]
+        },
+        {
+          "id": 105,
+          "content": "Post about zebra",
+          "comments": []
+        },
+        {
+          "id": 106,
+          "content": "Post about lion",
+          "comments": [
+            {
+              "id": 1004,
+              "content": "Majestic!"
+            }
+          ]
+        }
+      ]
+    },
+    "2": {
+      "name": "Jane Doe",
+      "posts": [
+        {
+          "id": 104,
+          "content": "Post about monkey",
+          "comments": []
+        },
+        {
+          "id": 107,
+          "content": "Post about tiger",
+          "comments": [
+            {
+              "id": 1005,
+              "content": "Scary!"
+            }
+          ]
+        }
+      ]
+    },
+    "3": {
+      "name": "Alice Smith",
+      "posts": [
+        {
+          "id": 108,
+          "content": "Post about cat",
+          "comments": [
+            {
+              "id": 1006,
+              "content": "Cute!"
+            },
+            {
+              "id": 1007,
+              "content": "Adorable!"
+            }
+          ]
+        }
+      ]
+    },
+    "4": {
+      "name": "Bob Johnson",
+      "posts": [
+        {
+          "id": 109,
+          "content": "Post about dog",
+          "comments": []
+        },
+        {
+          "id": 110,
+          "content": "Post about horse",
+          "comments": []
+        }
+      ]
+    },
+    "5": {
+      "name": "Charlie Brown",
+      "posts": [
+        {
+          "id": 111,
+          "content": "Post about dolphin",
+          "comments": [
+            {
+              "id": 1008,
+              "content": "So intelligent!"
+            }
+          ]
+        }
+      ]
+    },
+    "6": {
+      "name": "Diana White",
+      "posts": [
+        {
+          "id": 112,
+          "content": "Post about whale",
+          "comments": []
+        }
+      ]
+    },
+    "7": {
+      "name": "Edward Davis",
+      "posts": [
+        {
+          "id": 113,
+          "content": "Post about eagle",
+          "comments": []
+        }
+      ]
+    },
+    "8": {
+      "name": "Fiona Miller",
+      "posts": [
+        {
+          "id": 114,
+          "content": "Post about hawk",
+          "comments": []
+        }
+      ]
+    },
+    "9": {
+      "name": "George Wilson",
+      "posts": [
+        {
+          "id": 115,
+          "content": "Post about falcon",
+          "comments": []
+        }
+      ]
+    },
+    "10": {
+      "name": "Helen Moore",
+      "posts": [
+        {
+          "id": 116,
+          "content": "Post about parrot",
+          "comments": []
+        }
+      ]
+    }
+  },
+  "trending": {
+    "posts": [
+      {
+        "id": 103,
+        "userId": 1,
+        "userName": "John Doe",
+        "content": "Post about ocean",
+        "commentCount": 2
+      },
+      {
+        "id": 108,
+        "userId": 3,
+        "userName": "Alice Smith",
+        "content": "Post about cat",
+        "commentCount": 2
+      }
+    ]
+  },
+  "feed": {
+    "latest": [
+      {
+        "id": 116,
+        "userId": 10,
+        "userName": "Helen Moore",
+        "content": "Post about parrot",
+        "timestamp": "2025-03-22 07:28:29"
+      },
+      {
+        "id": 115,
+        "userId": 9,
+        "userName": "George Wilson",
+        "content": "Post about falcon",
+        "timestamp": "2025-03-22 07:28:29"
+      },
+      {
+        "id": 114,
+        "userId": 8,
+        "userName": "Fiona Miller",
+        "content": "Post about hawk",
+        "timestamp": "2025-03-22 07:28:29"
+      },
+      {
+        "id": 113,
+        "userId": 7,
+        "userName": "Edward Davis",
+        "content": "Post about eagle",
+        "timestamp": "2025-03-22 07:28:29"
+      },
+      {
+        "id": 112,
+        "userId": 6,
+        "userName": "Diana White",
+        "content": "Post about whale",
+        "timestamp": "2025-03-22 07:28:29"
+      }
+    ]
+  },
+  "stats": {
+    "topUsers": [
+      {
+        "id": "1",
+        "name": "John Doe",
+        "postCount": 5
+      },
+      {
+        "id": "2",
+        "name": "Jane Doe",
+        "postCount": 2
+      },
+      {
+        "id": "3",
+        "name": "Alice Smith",
+        "postCount": 1
+      },
+      {
+        "id": "4",
+        "name": "Bob Johnson",
+        "postCount": 2
+      },
+      {
+        "id": "5",
+        "name": "Charlie Brown",
+        "postCount": 1
+      }
+    ]
+  },
+  "responses": {
+    "example": {
+      "users": {
+        "timestamp": "2025-03-22 07:28:29",
+        "user": "naveenkumar830",
+        "data": {
+          "users": {
+            "1": "John Doe",
+            "2": "Jane Doe",
+            "3": "Alice Smith"
+          }
+        }
+      },
+      "posts": {
+        "timestamp": "2025-03-22 07:28:29",
+        "user": "naveenkumar830",
+        "data": {
+          "posts": [
+            {
+              "id": 101,
+              "userId": 1,
+              "content": "Post about ant"
+            }
+          ]
+        }
+      },
+      "comments": {
+        "timestamp": "2025-03-22 07:28:29",
+        "user": "naveenkumar830",
+        "data": {
+          "comments": [
+            {
+              "id": 1001,
+              "postId": 101,
+              "content": "Great observation!"
+            }
+          ]
+        }
+      }
+    }
+  }
+}
